@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Images</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+    <h1>Fun with Images!</h1>
+    </header>
+    <main>
+      <h2>Money</h2>
+      <picture>        
+        <source media="(min-width:769px)" srcset="images/quarter.jpg"
+        <source media="(min-width:426px)" srcset="images/dime.jpg">
+        <source media="(min-width:321px)" srcset="images/nickel.jpg">
+        <img src="images/penny.jpg" alt="coin" style="width:200px;height:200px">
+      </picture>
+      <hr>
+      <h2>I also draw stuff</h2>
+      <picture>
+        <source media="(min-width:769px)" srcset="images/art_lg.png">
+        <source media="(min-width:426px)" srcset="images/art_med.png">
+        <source media="(min-width:321px)" srcset="images/art_sm.png">
+        <img src="images/art_tiny.jpg" alt="ship art" style="width:200px;height:200px">
+      </picture>
+      <h6>oh my god some of these are definitely not square it looks <b>wrong</b></h6>
+      <hr>
+      <h2>Time for Crab.</h2>
+      <picture>
+        <source media="(min-width:769px)" srcset="images/crab1.jpg">
+        <source media="(min-width:426px)" srcset="images/crab2.jpg">
+        <source media="(min-width:321px)" srcset="images/crab3.jpg">
+        <img src="images/crab4.jpg" alt="c rab" style="width:200px;height:200px">
+      </picture>
+
+    </main>
+    <footer>
+      <p>&copy; Sarah "Bugg" Bridges, 2021</p>
+    </footer>
+
+    
+  </body>
+  
+
+</html>
